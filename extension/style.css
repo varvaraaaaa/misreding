@@ -1,0 +1,40 @@
+p {
+    /* background: url(exh_img.png); 
+       padding: 15px;
+       text-align: left;
+       display: block; */
+       line-break:anywhere;
+   /*  color: rgba(122, 110, 250, 0.208); 
+   font-size: 80px;*/
+   
+   
+     /* animation properties */
+     animation-name: my-animation;
+     animation-duration: 0.6s;
+     /* animation-duration: 2.0s; */
+     animation-direction:alternate;
+     animation-iteration-count: infinite;
+     /* animation-timing-function:inherit; */
+     
+     /* other properties 
+     width: 0px;
+     height: 0px;
+     border-radius: 0px;
+     position:relative;
+     left: 0; 
+     right: 0; */
+   
+   }
+   
+   @keyframes my-animation {
+     from {
+       width: 102%;
+       /* height: 100%; */
+     }
+     to {
+       width: 105%;
+       /* height: 100%; */
+     }
+   }
+
+ 
